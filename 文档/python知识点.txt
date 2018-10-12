@@ -1,0 +1,81 @@
+1.进制：
+	掌握二进制和其他进制的转换（十进制）
+	int(1010,base=2)
+	了解原码、反码、补码
+2.掌握字符串：
+		查找：index  find  count
+		替换：replace
+		截取(切片):[:]包左不包右[::]冒号后是步长
+		拼接：join   +
+		拆分：split
+		获取长度：len()
+3.列表（list）标志：[]
+		增加：append insert extend
+		删除：remove  pop  clear
+		修改：[]
+		查找:index 
+		排序：sort  默认是升序  reverse
+		遍历：while  for  迭代器
+4.元组(tuple)标志：()
+		查找：index
+		遍历：同list
+5.字典(dict)标志：{}
+		增加：根据键增加[]  update
+		删除:pop  clear
+		修改：[]
+		查找：[]  get
+		遍历：遍历键  遍历值  遍历键值对items
+6.集合set {}
+		创建：set(),小括号里边必须用[] () {}去传递
+					值，并且只会用字典的键
+		增加：add   update
+		删除：remove  pop
+		遍历：for  迭代器
+总结数据结构的特点：
+		1.列表：有序、可重复、可修改
+		2.元组：有序、可重复、不可修改
+		3.字典：无序、键不可重复、可修改、无下标、
+						键只能是整型和字符型
+		4.set：无序、不可重复、不可修改、无下标
+7.函数：def
+		掌握：参数和返回值
+		掌握：默认参数和不定长参数
+		不定长：*args(元组)  **kwards(字典)
+		递归：自己调用自己（得到一个目录下所有的文件、					兔子、阶乘）
+8.面向对象：
+		掌握：
+				1.类和对象
+				2.构造函数：__init__()
+				3.self代表自己，谁调用就是谁
+				4.重写__str__() __repr__()
+				5.访问限制  get和set  																		@property(getXXX)
+								@变量名.setter(setXXX)
+				6.继承：多重继承、多继承
+				7.多态：fu=zi
+		了解：
+				1.析构函数:__del__()
+				2.类属性、实例属性
+				3.类函数、静态函数、实例函数
+				4.动态添加属性:对象名.变量，这个变量只能自					己用
+
+9.模块
+			1.os   os.path
+			2.time calendar
+			3.math
+			4.random
+			5.functools
+			6.pickle  json
+			7.StringIO  BytesIO
+10.正则  re
+11.TCP 和UDP
+12.map  reduce  filter  sorted
+13.装饰器、回调函数、匿名函数、偏函数
+14.异常处理
+15.排列、组合、排列组合
+16.列表生成式(range)  生成器:[]—()需要用next
+17.函数里边出现yile语句也是生成器
+18栈和队列
+19.python2和3的区别
+
+
+		
